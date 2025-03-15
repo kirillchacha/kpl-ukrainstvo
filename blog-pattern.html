@@ -1,0 +1,645 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>шаблон стр. блог</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<style>
+		body {
+			opacity: 0;
+		}
+	</style>
+	<link rel="stylesheet" href="css/style.min.css?_v=20250315132654">
+	<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.0/build/css/intlTelInput.css?_v=20250315132654"> -->
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body class="bg-one">
+	<div class="wrapper">
+		<header data-scroll="" data-scroll-show class="header">
+			<div class="header__container">
+				<div class="header__content bg-seven b-radius-five">
+					<a href="home.html" class="header__logo"><img src="img/logo-column.svg" alt="Logo"></a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="home.html" class="menu__link c-five  menu__link--no-sub-menu">Головна</a>
+								</li>
+								<li class="menu__item"><a href="about-school.html" class="menu__link c-five  menu__link--no-sub-menu">Про
+										школу</a></li>
+								<li class="menu__item">
+									<a href="#" class="menu__link c-five  menu__link--sub-menu">Форми навчання</a>
+									<span class="menu__arrow-submenu _icon-arrow-bottom"></span>
+									<ul class="sub-menu__list">
+										<li class="sub-menu__item"><a href="extern.html" class="sub-menu__link c-five ">Екстерн</a>
+										</li>
+										<li class="sub-menu__item"><a href="basic.html" class="sub-menu__link c-five ">Базовий</a>
+										</li>
+										<li class="sub-menu__item"><a href="deepened.html" class="sub-menu__link c-five ">Поглиблений</a></li>
+										<li class="sub-menu__item"><a href="issuing.html" class="sub-menu__link c-five ">Випусковий</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__item"><a href="blog.html" class="menu__link c-five  menu__link--no-sub-menu">Блог</a>
+								</li>
+								<li class="menu__item"><a href="contact.html" class="menu__link c-five  menu__link--no-sub-menu">Контакти</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__actions actions-header">
+						<a href="#" data-da=".menu__body, 767.98" class="actions-header__button button button--shadow-one button--hover-color-one  bg-two b-radius-one c-three border-one--color-three"><span class="actions-header__button-text button__text text--transform-capita _icon-arrow">вхід</span></a>
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="blog-pattern">
+			<button type="button" data-popup="#pupil" class="whatsapp-page b-radius-circle c-five _icon-whatsapp"></button>
+			<section class="blog-patter__pageblog pageblog">
+				<div class="pageblog__container">
+					<div class="pageblog__content">
+						<div data-watch data-watch-once class="pageblog__comeback-block margin-bottom-one--mob-one">
+							<a href="#" class="pageblog__comeback comeback-link">
+								<div class="comeback-link__button button--shadow-two button--s b-radius-one border-one--color-five bg-seven c-five  _icon-arrow-bottom">
+								</div>
+								<div class="comeback-link__text">Повернутися</div>
+							</a>
+						</div>
+						<div class="pageblog__title-block margin-bottom-one--mob-one">
+							<h2 data-watch data-watch-once class="pageblog__title margin-bottom-one--mob-one">
+								Лідерські
+								навички - це
+								перспективно, але…навчіть
+								дитину працювати в групі
+							</h2>
+							<div data-watch data-watch-once class="pageblog__image-block b-radius-four">
+								<img class="pageblog__image b-radius-four ibg" src="img/pageblog/image.webp" alt="Image">
+							</div>
+						</div>
+						<div data-watch data-watch-once class="pageblog__quote quote-pageblog margin-bottom-one--mob-one bg-two c-five b-radius-four">
+							<div class="quote-pageblog__autor-block quote-pageblog__autor-block--mobile">
+								<div class="quote-pageblog__autor-image b-radius-circle">
+									<img class="quote-pageblog__image b-radius-circle ibg" src="img/pageblog/natalia.webp" alt="natalia">
+								</div>
+								<div class="quote-pageblog__autor-text">
+									<h2 class="quote-pageblog__name">Наталія Соломянюк</h2>
+									<p class="quote-pageblog__biography">
+										Засновниця Школи Українства</p>
+								</div>
+							</div>
+							<div class="quote-pageblog__quote-left">
+								<svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22 1.13921L21.5009 4.97475C20.281 4.89227 19.3384 5.11223 18.673 5.63463C18.0076 6.15703 17.564 6.88565 17.3422 7.82047C17.1204 8.7553 17.0788 9.81385 17.2174 10.9961H22V20.9355H12.8091V10.1713C12.8091 6.92689 13.5854 4.47984 15.138 2.83015C16.7183 1.15296 19.0057 0.589315 22 1.13921ZM9.19093 1.13921L8.69187 4.97475C7.47196 4.89227 6.5293 5.11223 5.86389 5.63463C5.19849 6.15703 4.75488 6.88565 4.53308 7.82047C4.31128 8.7553 4.26969 9.81385 4.40832 10.9961H9.19093V20.9355H0V10.1713C0 6.92689 0.776307 4.47984 2.32892 2.83015C3.90926 1.15296 6.1966 0.589315 9.19093 1.13921Z" fill="#182654" />
+								</svg>
+							</div>
+							<div class="quote-pageblog__content">
+								<div class="quote-pageblog__autor-block quote-pageblog__autor-block--no-mobile">
+									<div class="quote-pageblog__autor-image b-radius-circle">
+										<img class="quote-pageblog__image b-radius-circle ibg" src="img/pageblog/natalia.webp" alt="natalia">
+									</div>
+									<div class="quote-pageblog__autor-text">
+										<h2 class="quote-pageblog__name">Наталія Соломянюк</h2>
+										<p class="quote-pageblog__biography">
+											Засновниця Школи Українства</p>
+									</div>
+								</div>
+								<div class="quote-pageblog__parahraph">
+									<p class="quote-pageblog__text">Lorem Ipsum
+										is
+										simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+										industry's standard dummy text ever since the 1500s, when an unknown printer took a galley
+										of
+										type and scrambled it to make a type specimen book.</p>
+								</div>
+							</div>
+							<div class="quote-pageblog__quote-right">
+								<svg width="22" height="21" viewBox="0 0 22 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M22 1.13921L21.5009 4.97475C20.281 4.89227 19.3384 5.11223 18.673 5.63463C18.0076 6.15703 17.564 6.88565 17.3422 7.82047C17.1204 8.7553 17.0788 9.81385 17.2174 10.9961H22V20.9355H12.8091V10.1713C12.8091 6.92689 13.5854 4.47984 15.138 2.83015C16.7183 1.15296 19.0057 0.589315 22 1.13921ZM9.19093 1.13921L8.69187 4.97475C7.47196 4.89227 6.5293 5.11223 5.86389 5.63463C5.19849 6.15703 4.75488 6.88565 4.53308 7.82047C4.31128 8.7553 4.26969 9.81385 4.40832 10.9961H9.19093V20.9355H0V10.1713C0 6.92689 0.776307 4.47984 2.32892 2.83015C3.90926 1.15296 6.1966 0.589315 9.19093 1.13921Z" fill="#182654" />
+								</svg>
+							</div>
+						</div>
+						<div class="pageblog__headline-block margin-bottom-one--mob-one">
+							<h2 data-watch data-watch-once class="pageblog__headline pageblog__headline--one margin-bottom-two">
+								Header 1
+							</h2>
+							<div data-watch data-watch-once class="pageblog__parahraph">
+								<p class="pageblog__text">Останнім часом багато уваги приділяється розвитку в дітей лідерських
+									навичок. Це важливо, але, як показує досвід, коли дітям потрібно працювати в парі, ще й за
+									умови
+									певних обмежень, часто їм бракує злагодженості та взаємодії заради спільного результату.</p>
+								<p class="pageblog__text">Живий приклад: на занятті пропонуємо виконати завдання в парі, однак у
+									завдання є обмеження – кожен учасник може діяти лише однією рукою, а ліва рука одного
+									учасника і
+									права рука іншого учасника мають залишитися бездіяльними. </p>
+								<p class="pageblog__text">Саме за таких обмежень простежуються комунікативні навички дітей –
+									вміння
+									дослухатися, домовлятися, взаємодіяти. </p>
+							</div>
+						</div>
+						<div data-watch data-watch-once class="pageblog__video-block margin-bottom-one--mob-one">
+							<video controls class="pageblog__video" poster="img/pageblog/image.webp">
+								<source class="pageblog__source" src="video.mp4" type="video/mp4">
+								<source class="pageblog__source" src="video.webm" type="video/webm">
+								Ваш браузер не підтримує тег відео.
+							</video>
+							<button type="button" class="pageblog__play-icon b-radius-one _icon-play"></button>
+						</div>
+						<div class="pageblog__headline-block margin-bottom-one--mob-one">
+							<h2 data-watch data-watch-once class="pageblog__headline pageblog__headline--two margin-bottom-two">Header 2</h2>
+							<div data-watch data-watch-once class="pageblog__parahraph">
+								<p class="pageblog__text">Найчастіша фраза, яку говорили діти-лідери: «Ти не правильно робиш! Я
+									сам/сама зроблю!»
+									У парах з двома дітьми-лідерами один з учасників часто не міг вгамувати емоції, якщо інший
+									робив
+									повільніше, припускався помилок або мав інше бачення виконання завдання.</p>
+								<p class="pageblog__text">Реакції теж були бурхливими: «Він/вона повільно робить, я швидше/краще
+									зроблю», «Я не буду цього робити».
+									Завдання важко було виконати й тоді, коли одна дитина брала на себе основну частину, а інша
+									здебільшого виконувала роль спостерігача. </p>
+								<p class="pageblog__text">Відсутність підтримки партнера й марні спроби виконати завдання
+									самостійно призводили до відмови працювати й супроводжувалися емоційними поясненнями: «Я не
+									пишу
+									лівою рукою / Я не вмію так робити/ Я не зможу так зробити».</p>
+							</div>
+						</div>
+						<div class="pageblog__headline-block">
+							<h2 data-watch data-watch-once class="pageblog__headline pageblog__headline--three margin-bottom-two">
+								Header
+								3</h2>
+							<div data-watch data-watch-once class="pageblog__parahraph">
+								<p class="pageblog__text">І лише ті пари, які знаходили спільну мову, зважували сильні сторони й
+									вміння один одного, раціонально розподіляли обов’язки й визнавали переваги партнера, швидко й
+									злагоджено виконували завдання.</p>
+								<p class="pageblog__text">Уміння працювати в команді чи в парі – вагома навичка, якої мають
+									набути
+									діти. </p>
+								<p class="pageblog__text">Саме вона в майбутньому полегшить адаптацію до суспільних норм, не
+									втрачаючи індивідуальності, дасть змогу комфортно почуватися в різних ситуаціях та
+									конструктивно
+									долучатися до розв’язання проблемних питань.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="blog-patter__gallery gallery-patter">
+				<!-- Оболонка слайдера -->
+				<div class="gallery-patter__slider gallery-patter__slider--no-mobile swiper">
+					<!-- Частина слайдера, що рухається -->
+					<div data-watch data-watch-once class="gallery-patter__wrapper swiper-wrapper">
+						<!-- Слайд -->
+						<div class="gallery-patter__slide slide-gallery-patter swiper-slide">
+							<div class="slide-gallery-patter__content">
+								<div class="slide-gallery-patter__image-block">
+									<img class="slide-gallery-patter__image ibg" src="img/gallery-patter/image-1.webp" alt="Image" />
+								</div>
+							</div>
+						</div>
+						<div class="gallery-patter__slide slide-gallery-patter swiper-slide">
+							<div class="slide-gallery-patter__content">
+								<div class="slide-gallery-patter__image-block">
+									<img class="slide-gallery-patter__image ibg" src="img/gallery-patter/image-2.webp" alt="Image" />
+								</div>
+							</div>
+						</div>
+						<div class="gallery-patter__slide slide-gallery-patter swiper-slide">
+							<div class="slide-gallery-patter__content">
+								<div class="slide-gallery-patter__image-block">
+									<img class="slide-gallery-patter__image ibg" src="img/gallery-patter/image-3.webp" alt="Image" />
+								</div>
+							</div>
+						</div>
+						<div class="gallery-patter__slide slide-gallery-patter swiper-slide">
+							<div class="slide-gallery-patter__content">
+								<div class="slide-gallery-patter__image-block">
+									<img class="slide-gallery-patter__image ibg" src="img/gallery-patter/image-4.webp" alt="Image" />
+								</div>
+							</div>
+						</div>
+						<div class="gallery-patter__slide slide-gallery-patter swiper-slide">
+							<div class="slide-gallery-patter__content">
+								<div class="slide-gallery-patter__image-block">
+									<img class="slide-gallery-patter__image ibg" src="img/gallery-patter/image-5.webp" alt="Image" />
+
+								</div>
+							</div>
+						</div>
+						<div class="gallery-patter__slide slide-gallery-patter swiper-slide">
+							<div class="slide-gallery-patter__content">
+								<div class="slide-gallery-patter__image-block">
+									<img class="slide-gallery-patter__image ibg" src="img/gallery-patter/image-1.webp" alt="Image" />
+								</div>
+							</div>
+						</div>
+						<div class="gallery-patter__slide slide-gallery-patter swiper-slide">
+							<div class="slide-gallery-patter__content">
+								<div class="slide-gallery-patter__image-block">
+									<img class="slide-gallery-patter__image ibg" src="img/gallery-patter/image-2.webp" alt="Image" />
+								</div>
+							</div>
+						</div>
+						<div class="gallery-patter__slide slide-gallery-patter swiper-slide">
+							<div class="slide-gallery-patter__content">
+								<div class="slide-gallery-patter__image-block">
+									<img class="slide-gallery-patter__image ibg" src="img/gallery-patter/image-3.webp" alt="Image" />
+								</div>
+							</div>
+						</div>
+						<div class="gallery-patter__slide slide-gallery-patter swiper-slide">
+							<div class="slide-gallery-patter__content">
+								<div class="slide-gallery-patter__image-block">
+									<img class="slide-gallery-patter__image ibg" src="img/gallery-patter/image-4.webp" alt="Image" />
+								</div>
+							</div>
+						</div>
+						<div class="gallery-patter__slide slide-gallery-patter swiper-slide">
+							<div class="slide-gallery-patter__content">
+								<div class="slide-gallery-patter__image-block">
+									<img class="slide-gallery-patter__image ibg" src="img/gallery-patter/image-5.webp" alt="Image" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="gallery-patter__button-block">
+						<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+						<button type="button" class="gallery-patter__prev _icon-arrow-bottom"></button>
+						<button type="button" class="gallery-patter__next _icon-arrow-bottom"></button>
+					</div>
+				</div>
+				<div class="gallery-patter__slider gallery-patter__slider--mobile swiper">
+					<!-- Частина слайдера, що рухається -->
+					<div data-watch data-watch-once class="gallery-patter__wrapper swiper-wrapper c-five">
+						<!-- Слайд -->
+						<div class="gallery-patter__slide slidegallerypatter-mobile swiper-slide">
+							<div class="slidegallerypatter-mobile__content">
+								<div class="slidegallerypatter-mobile__image-block">
+									<img class="slidegallerypatter-mobile__image ibg" src="img/slide-hero/image-2.webp" alt="Image">
+									<div class="slidegallerypatter-mobile__text"><span>STEM-урок</span></div>
+								</div>
+							</div>
+						</div>
+						<div class="gallery-patter__slide slidegallerypatter-mobile swiper-slide">
+							<div class="slidegallerypatter-mobile__content">
+								<div class="slidegallerypatter-mobile__image-block">
+									<img class="slidegallerypatter-mobile__image ibg" src="img/slide-hero/image-2.webp" alt="Image">
+									<div class="slidegallerypatter-mobile__text"><span>Соціальні проєкти</span></div>
+								</div>
+							</div>
+						</div>
+						<div class="gallery-patter__slide slidegallerypatter-mobile swiper-slide">
+							<div class="slidegallerypatter-mobile__content">
+								<div class="slidegallerypatter-mobile__image-block">
+									<img class="slidegallerypatter-mobile__image ibg" src="img/slide-hero/image-2.webp" alt="Image">
+									<div class="slidegallerypatter-mobile__text"><span>Наші навчальні будні</span></div>
+								</div>
+							</div>
+						</div>
+						<div class="gallery-patter__slide slidegallerypatter-mobile swiper-slide">
+							<div class="slidegallerypatter-mobile__content">
+								<div class="slidegallerypatter-mobile__image-block">
+									<img class="slidegallerypatter-mobile__image ibg" src="img/slide-hero/image-2.webp" alt="Image">
+									<div class="slidegallerypatter-mobile__text"><span>Цікава наука</span></div>
+								</div>
+							</div>
+						</div>
+						<div class="gallery-patter__slide slidegallerypatter-mobile swiper-slide">
+							<div class="slidegallerypatter-mobile__content">
+								<div class="slidegallerypatter-mobile__image-block">
+									<img class="slidegallerypatter-mobile__image ibg" src="img/slide-hero/image-2.webp" alt="Image">
+									<div class="slidegallerypatter-mobile__text"><span>Проєктна діяльність</span></div>
+								</div>
+							</div>
+						</div>
+						<div class="gallery-patter__slide slidegallerypatter-mobile swiper-slide">
+							<div class="slidegallerypatter-mobile__content">
+								<div class="slidegallerypatter-mobile__image-block">
+									<img class="slidegallerypatter-mobile__image ibg" src="img/slide-hero/image-2.webp" alt="Image">
+									<div class="slidegallerypatter-mobile__text"><span>STEM-урок</span></div>
+								</div>
+							</div>
+						</div>
+						<div class="gallery-patter__slide slidegallerypatter-mobile swiper-slide">
+							<div class="slidegallerypatter-mobile__content">
+								<div class="slidegallerypatter-mobile__image-block">
+									<img class="slidegallerypatter-mobile__image ibg" src="img/slide-hero/image-2.webp" alt="Image">
+									<div class="slidegallerypatter-mobile__text"><span>Соціальні проєкти</span></div>
+								</div>
+							</div>
+						</div>
+						<div class="gallery-patter__slide slidegallerypatter-mobile swiper-slide">
+							<div class="slidegallerypatter-mobile__content">
+								<div class="slidegallerypatter-mobile__image-block">
+									<img class="slidegallerypatter-mobile__image ibg" src="img/slide-hero/image-2.webp" alt="Image">
+									<div class="slidegallerypatter-mobile__text"><span>Наші навчальні будні</span></div>
+								</div>
+							</div>
+						</div>
+						<div class="gallery-patter__slide slidegallerypatter-mobile swiper-slide">
+							<div class="slidegallerypatter-mobile__content">
+								<div class="slidegallerypatter-mobile__image-block">
+									<img class="slidegallerypatter-mobile__image ibg" src="img/slide-hero/image-2.webp" alt="Image">
+									<div class="slidegallerypatter-mobile__text"><span>Цікава наука</span></div>
+								</div>
+							</div>
+						</div>
+						<div class="gallery-patter__slide slide-gallery-patter swiper-slide">
+							<div class="slidegallerypatter-mobile__content">
+								<div class="slidegallerypatter-mobile__image-block">
+									<img class="slidegallerypatter-mobile__image ibg" src="img/slide-hero/image-2.webp" alt="Image">
+									<div class="slidegallerypatter-mobile__text"><span>Проєктна діяльність</span></div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="gallery-patter__button-block">
+						<button type="button" class="gallery-patter__prev _icon-arrow-bottom"></button>
+						<button type="button" class="gallery-patter__next _icon-arrow-bottom"></button>
+					</div>
+				</div>
+			</section>
+			<section class="blog-pattern__interestingtopics interestingtopics-blog bg-two">
+				<div class="interestingtopics-blog__decor-block">
+					<div class="interestingtopics-blog__decor">
+						<svg xmlns="http://www.w3.org/2000/svg" width="669" height="615" viewBox="0 0 669 615" fill="none">
+							<path d="M-827.335 424.301C-761.645 372.133 -831.225 427.449 -715.706 335.157C-599.792 242.55 -485.901 145.287 -364.782 59.4238C-342.539 43.6556 -336.971 30.6132 -331.4 49.3391C-327.637 61.9867 -329.115 76.0773 -331.001 88.8749C-341.809 162.215 -375.962 230.657 -394.857 301.928C-404.835 339.563 -414.092 377.433 -421.461 415.665C-425.639 437.341 -452.612 601.398 -448.69 636.058C-447.62 645.512 -436.021 659.726 -427.6 655.295C-401.661 641.645 -385.61 614.326 -365.998 592.542C-329.73 552.259 -296.515 509.287 -260.044 469.189C-186.829 388.691 -123.749 322.103 -38.0101 256.889C5.57505 223.738 53.2365 198.249 107.343 188.886C112.154 188.054 135.677 186.63 141.915 189.279C164.237 198.755 164.692 239.904 165.634 257.42C170.315 344.445 138.447 420.99 98.8244 496.795C61.4593 568.28 19.2198 637.251 -24.7884 704.797C-59.0587 757.397 -96.2342 808.443 -127.087 863.211C-135.044 877.336 -176.579 940.837 -139.377 951.258C-127.004 954.724 -120.892 952.232 -108.556 945.759C-62.8473 921.771 -20.8494 884.157 17.2047 850.047C115.816 761.656 196.486 655.496 294.398 566.485C326.227 537.55 361.099 511.901 399.755 492.798C406.771 489.33 423.228 480.115 431.349 487.879C435.01 491.379 435.792 494.769 436.545 499.756C439.298 518.015 435.865 539.031 434.195 556.936C428.354 619.524 416.139 683.912 425.881 746.715C431.134 780.582 445.34 816.288 485.767 816.113C509.266 816.012 530.496 801.39 548.3 787.938C577.935 765.548 602.45 738.495 629.426 713.207" stroke="#CEF65C" stroke-width="79" stroke-linecap="round" />
+						</svg>
+					</div>
+					<div class="interestingtopics-blog__decor">
+						<svg xmlns="http://www.w3.org/2000/svg" width="738" height="656" viewBox="0 0 738 656" fill="none">
+							<path d="M40.2353 523.955C122.974 458.248 35.3358 527.92 180.837 411.675C326.835 295.032 470.286 172.525 622.84 64.3769C650.856 44.5161 657.869 28.0887 664.886 51.6747C669.625 67.6049 667.764 85.3526 665.388 101.472C651.775 193.847 608.758 280.052 584.959 369.821C572.392 417.224 560.732 464.923 551.451 513.078C546.189 540.379 512.215 747.017 517.155 790.672C518.502 802.58 533.112 820.483 543.718 814.902C576.39 797.708 596.606 763.3 621.309 735.862C666.989 685.124 708.826 630.999 754.762 580.493C846.98 479.103 926.431 395.232 1034.42 313.093C1089.32 271.337 1149.35 239.233 1217.5 227.44C1223.56 226.392 1253.19 224.599 1261.05 227.934C1289.16 239.87 1289.74 291.7 1290.92 313.762C1296.82 423.373 1256.68 519.785 1206.77 615.264C1159.71 705.303 1106.51 792.174 1051.08 877.251C1007.91 943.503 961.087 1007.8 922.227 1076.78C912.205 1094.57 859.89 1174.55 906.747 1187.68C922.331 1192.05 930.03 1188.91 945.567 1180.75C1003.14 1150.54 1056.04 1103.16 1103.97 1060.2C1228.17 948.868 1329.78 815.155 1453.11 703.042C1493.19 666.597 1537.12 634.291 1585.81 610.229C1594.64 605.862 1615.37 594.255 1625.6 604.034C1630.21 608.442 1631.2 612.712 1632.14 618.993C1635.61 641.991 1631.29 668.463 1629.18 691.014C1621.83 769.846 1606.44 850.946 1618.71 930.048C1625.33 972.706 1643.22 1017.68 1694.14 1017.46C1723.74 1017.33 1750.48 998.914 1772.91 981.972C1810.23 953.769 1841.11 919.695 1875.09 887.845" stroke="#CEF65C" stroke-width="79" stroke-linecap="round" />
+						</svg>
+					</div>
+				</div>
+				<div class="interestingtopics-blog__container">
+					<h2 data-watch data-watch-once class="interestingtopics-blog__title text--m text--spacing-sex c-five margin-bottom-one--mob-one">
+						Наші інші
+						цікаві теми</h2>
+					<div class="interestingtopics-blog__content">
+						<!-- Оболонка слайдера -->
+						<div class="interestingtopics-blog__slider swiper">
+							<!-- Частина слайдера, що рухається -->
+							<div data-watch data-watch-once class="interestingtopics-blog__wrapper swiper-wrapper">
+								<!-- Слайд -->
+								<div class="interestingtopics-blog__slide swiper-slide">
+									<article class="entryblog entryblog--slider">
+										<a href="blog-pattern.html" class="entryblog__link-card">
+											<div class="entryblog__image-block">
+												<img class="entryblog__image ibg" src="img/entryblog/image-1.webp" alt="Image">
+											</div>
+											<div class="entryblog__content">
+												<div class="entryblog__title-block title-entryblog">
+													<div class="title-entryblog__link text--weight-two">
+														Назва
+														статті велика та неосяжна, нмт 2025 та інші види
+														вона може бути ще більшаелика та неосяжна, нмт 2025 та інші види</d>
+													</div>
+													<div class="entryblog__parahraph">
+														<p class="entryblog__text text--xxxxs text--height-four">Опис статті -
+															Учителька,
+															доктор
+															економічних
+															наук, магістр психології,
+															практикуючий інструктор з тактичної медицини. Українство  –  це її життєве
+															кредо.
+															Вимоглива до
+															себе, вона навчає дітей бути відповідальними, не боятися помилок й чітко
+															ставити
+															перед собою
+															цілі. 
+															Навчить долати виклики сьогодення під час викладання основ здоров’я й
+															добробуту,
+															захисту
+															України.
+														</p>
+													</div>
+													<div class="entryblog__actions actions-entryblog">
+														<div class="actions-entryblog__list">
+															<div class="actions-entryblog__item actions-entryblog__item--date">
+																<div class="actions-entryblog__date text--xxxxs">12.02.2025</div>
+															</div>
+															<div class="actions-entryblog__item actions-entryblog__item--read">
+																<div class="actions-entryblog__link c-two">
+																	<span class="actions-entryblog__icon _icon-arrow"></span>
+																	<span class="actions-entryblog__text text--xxxxs text--spacing-one">Читати
+																		далі</span>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</article>
+								</div>
+								<div class="interestingtopics-blog__slide swiper-slide">
+									<article class="entryblog entryblog--slider">
+										<a href="blog-pattern.html" class="entryblog__link-card">
+											<div class="entryblog__image-block">
+												<img class="entryblog__image ibg" src="img/entryblog/image-1.webp" alt="Image">
+											</div>
+											<div class="entryblog__content">
+												<div class="entryblog__title-block title-entryblog">
+													<div class="title-entryblog__link text--weight-two">
+														Назва
+														статті велика та неосяжна, нмт 2025 та інші види
+														вона може бути ще більшаелика та неосяжна, нмт 2025 та інші види</d>
+													</div>
+													<div class="entryblog__parahraph">
+														<p class="entryblog__text text--xxxxs text--height-four">Опис статті -
+															Учителька,
+															доктор
+															економічних
+															наук, магістр психології,
+															практикуючий інструктор з тактичної медицини. Українство  –  це її життєве
+															кредо.
+															Вимоглива до
+															себе, вона навчає дітей бути відповідальними, не боятися помилок й чітко
+															ставити
+															перед собою
+															цілі. 
+															Навчить долати виклики сьогодення під час викладання основ здоров’я й
+															добробуту,
+															захисту
+															України.
+														</p>
+													</div>
+													<div class="entryblog__actions actions-entryblog">
+														<div class="actions-entryblog__list">
+															<div class="actions-entryblog__item actions-entryblog__item--date">
+																<div class="actions-entryblog__date text--xxxxs">12.02.2025</div>
+															</div>
+															<div class="actions-entryblog__item actions-entryblog__item--read">
+																<div class="actions-entryblog__link c-two">
+																	<span class="actions-entryblog__icon _icon-arrow"></span>
+																	<span class="actions-entryblog__text text--xxxxs text--spacing-one">Читати
+																		далі</span>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</article>
+								</div>
+								<div class="interestingtopics-blog__slide swiper-slide">
+									<article class="entryblog entryblog--slider">
+										<a href="blog-pattern.html" class="entryblog__link-card">
+											<div class="entryblog__image-block">
+												<img class="entryblog__image ibg" src="img/entryblog/image-1.webp" alt="Image">
+											</div>
+											<div class="entryblog__content">
+												<div class="entryblog__title-block title-entryblog">
+													<div class="title-entryblog__link text--weight-two">
+														Назва
+														статті велика та неосяжна, нмт 2025 та інші види
+														вона може бути ще більшаелика та неосяжна, нмт 2025 та інші види</d>
+													</div>
+													<div class="entryblog__parahraph">
+														<p class="entryblog__text text--xxxxs text--height-four">Опис статті -
+															Учителька,
+															доктор
+															економічних
+															наук, магістр психології,
+															практикуючий інструктор з тактичної медицини. Українство  –  це її життєве
+															кредо.
+															Вимоглива до
+															себе, вона навчає дітей бути відповідальними, не боятися помилок й чітко
+															ставити
+															перед собою
+															цілі. 
+															Навчить долати виклики сьогодення під час викладання основ здоров’я й
+															добробуту,
+															захисту
+															України.
+														</p>
+													</div>
+													<div class="entryblog__actions actions-entryblog">
+														<div class="actions-entryblog__list">
+															<div class="actions-entryblog__item actions-entryblog__item--date">
+																<div class="actions-entryblog__date text--xxxxs">12.02.2025</div>
+															</div>
+															<div class="actions-entryblog__item actions-entryblog__item--read">
+																<div class="actions-entryblog__link c-two">
+																	<span class="actions-entryblog__icon _icon-arrow"></span>
+																	<span class="actions-entryblog__text text--xxxxs text--spacing-one">Читати
+																		далі</span>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</article>
+								</div>
+								<div class="interestingtopics-blog__slide swiper-slide">
+									<article class="entryblog entryblog--slider">
+										<a href="blog-pattern.html" class="entryblog__link-card">
+											<div class="entryblog__image-block">
+												<img class="entryblog__image ibg" src="img/entryblog/image-1.webp" alt="Image">
+											</div>
+											<div class="entryblog__content">
+												<div class="entryblog__title-block title-entryblog">
+													<div class="title-entryblog__link text--weight-two">
+														Назва
+														статті велика та неосяжна, нмт 2025 та інші види
+														вона може бути ще більшаелика та неосяжна, нмт 2025 та інші види</d>
+													</div>
+													<div class="entryblog__parahraph">
+														<p class="entryblog__text text--xxxxs text--height-four">Опис статті -
+															Учителька,
+															доктор
+															економічних
+															наук, магістр психології,
+															практикуючий інструктор з тактичної медицини. Українство  –  це її життєве
+															кредо.
+															Вимоглива до
+															себе, вона навчає дітей бути відповідальними, не боятися помилок й чітко
+															ставити
+															перед собою
+															цілі. 
+															Навчить долати виклики сьогодення під час викладання основ здоров’я й
+															добробуту,
+															захисту
+															України.
+														</p>
+													</div>
+													<div class="entryblog__actions actions-entryblog">
+														<div class="actions-entryblog__list">
+															<div class="actions-entryblog__item actions-entryblog__item--date">
+																<div class="actions-entryblog__date text--xxxxs">12.02.2025</div>
+															</div>
+															<div class="actions-entryblog__item actions-entryblog__item--read">
+																<div class="actions-entryblog__link c-two">
+																	<span class="actions-entryblog__icon _icon-arrow"></span>
+																	<span class="actions-entryblog__text text--xxxxs text--spacing-one">Читати
+																		далі</span>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</a>
+									</article>
+								</div>
+							</div>
+						</div>
+						<!-- Якщо потрібна навігація (ліворуч/праворуч) -->
+						<div class="interestingtopics-blog__button-block">
+							<button type="button" class="interestingtopics-blog__prev b-radius-two _icon-arrow-bottom"></button>
+							<button type="button" class="interestingtopics-blog__next b-radius-two _icon-arrow-bottom"></button>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__bg">
+					<div class="footer__content">
+						<a href="home.html" class="footer__logo"><img src="img/logo-column.svg" alt="Logo"></a>
+						<div class="footer__menu menu-footer">
+							<nav class="menu-footer__body">
+								<ul class="menu-footer__list">
+									<li class="menu-footer__item"><a href="home.html" class="menu-footer__link c-five ">Головна</a>
+									</li>
+									<li class="menu-footer__item"><a href="about-school.html" class="menu-footer__link c-five ">Про
+											школу</a></li>
+									<li class="menu-footer__item">
+										<a href="#" class="menu-footer__link c-five ">Форми навчання</a>
+										<span class="menu-footer__arrow-submenu _icon-arrow-bottom"></span>
+										<ul class="sub-menu-footer__list">
+											<li class="sub-menu-footer__item"><a href="extern.html" class="sub-menu-footer__link c-five ">Екстерн</a></li>
+											<li class="sub-menu-footer__item"><a href="basic.html" class="sub-menu-footer__link c-five ">Базовий</a></li>
+											<li class="sub-menu-footer__item"><a href="deepened.html" class="sub-menu-footer__link c-five ">Поглиблений</a>
+											</li>
+											<li class="sub-menu-footer__item"><a href="issuing.html" class="sub-menu-footer__link c-five ">Випусковий</a></li>
+										</ul>
+									</li>
+									<li class="menu-footer__item"><a href="blog.html" class="menu-footer__link c-five ">Блог</a></li>
+									<li class="menu-footer__item"><a href="contact.html" class="menu-footer__link c-five ">Контакт</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="footer__actions actions-footer">
+							<a href="#" class="actions-footer__button button button--shadow-one button--hover-color-one  bg-two b-radius-one c-three border-one--color-three "><span class="actions-footer__button-text button__text button__text--icon-two text--transform-capita _icon-arrow">вхід</span></a>
+							<button type="button" class="actions-footer__icon"><span></span></button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://code.jquery.com/jquery-3.7.1.min.js?_v=20250315132654"></script>
+	<script src="build/js/intlTelInput.min.js?_v=20250315132654"></script>
+	<script src="js/app.min.js?_v=20250315132654"></script>
+</body>
+
+</html>
